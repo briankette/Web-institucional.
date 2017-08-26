@@ -3,17 +3,20 @@
 <head>
 	<meta charset="UTF-8">
 	<title>BKCWeb</title>
-   <link rel="shortcut icon" type="image/x-icon" href="imagenes/icono.ico"
+   <link rel="shortcut icon" type="image/x-icon" href="imagenes/icono.ico">
+   <link rel="stylesheet" type="text/css" href="Estilos.css"/>
 </head>
+
 <body>
-	
-   <header>
-         <div>
-            <img src="imagenes/banner.jpg" width="1200" alt="Banner">
-         </div>
-   	   <div>
-   	   	 <img src="imagenes/logo.jpg" width="90" alt="Logotipo">
-   	   </div>
+	 
+    <header id="main-header">
+         
+         <a id="logo-header" href="#">
+         <span class="site-name">BKC/web</span>
+         <span class="site-desc">Diseño y Desarrollo web</span>
+      </a>
+   	   
+   	   
    	   <nav>
    	   	 <ul>
    	   	 	<li><a href="#La Solución Web que su Empresa Necesita">Inicio</a></li>
@@ -23,27 +26,28 @@
    	   	 	<li><a href="#Contacto">Contacto</a></li>
    	   	 </ul>
    	   </nav>
-   </header>
+     
+    </header>
 
-   <section class="wrapper">
-   	  <section class="main">
-   	  	  <article>
-   	  	  	  <h2 id="La Solución Web que su Empresa Necesita">La Solución Web que su Empresa Necesita</h2>
-              <img src="imagenes/inicio.png">
+    <section id="main-content">
+
+           <article>
+   	  	  	  <h2 id="La Solución Web que su Empresa Necesita"><strong></strong></h2>
+              <img src="imagenes/inicio.jpg" width="1050">
               <p>Una empresa que desarrolla software a medida para sitios web y aplicaciones web de alta calidad, para empresas y profesionales.
               Se enfoca en realizar páginas webs simples y fáciles de navegar para cualqiuer usuario. Nos interesa que nuestros clientes puedan desempeñarse en su negocio de la mejor manera para poder potenciar sus ventas y atraer nuevos clientes.
               </p>
    	  	  </article>
-           <hr>
+           
    	  	  <article>
-   	  	  	  <h2 id="¿Quienes Somos?">¿Quienes Somos?</h2>
-              <img src="imagenes/quienes somos.jpg" width="900">
+   	  	  	  <h2 id="¿Quienes Somos?"><strong>¿QUIENES SOMOS?</strong></h2>
+              <img src="imagenes/quienes somos.jpg" width="1050">
    	  	  	  <p>Somos un grupo de jovenes emprendedores con intención de desarrollar en la web y mejorar la imagen de las empresas en internet. Actualmente contamos con un equipo de profesionales especializados en diferentes áreas del desarrollo de sitios web, con lo cual aseguramos la calidad de cada trabajo que realizamos: Diseño web, Programación, Sistemas web, Comercio Electrónico y Posicionamiento en Buscadores. Nuestros objetivos: diseños web creativos e innovadores, que generen una imagen diferente hacia sus clientes, utilizando las mejores ténicas web.</p>
    	  	  </article>
-           <hr>
+           
            <article>
-              <h2 id="Servicios">Servicios</h2>
-              <img src="imagenes/servicios.jpg" width="1100">
+              <h2 id="Servicios"><STRONG>SERVICIOS</STRONG></h2>
+              <img src="imagenes/servicios.jpg" width="1050">
               <ul>
                <li><strong>Diseño Web:</strong> Diseño de Páginas web fáciles de navegar, ágiles y originales. Su sitio web será la primer imagen de su empresa con sus futuros clientes.</li>
                <li><strong>Desarrollo Web:</strong> Desarrollo de Páginas web para empresas. Podrás tener aplicaciónes en tu sitio web con Programación web .</li>
@@ -53,9 +57,9 @@
              </ul>
              <p>Ademas, contamos con asesoramiento comercial, para que su sitio web sea un exito, mantenimiento y actualizacion del sitio, registro de dominios y Hosting.</p>
            </article>
-           <hr>
+          
            <article>
-            <h2 id="Proyectos">Proyectos</h2>
+            <h2 id="Proyectos"><strong>NUESTROS PROYECTOS</strong></h2>
             <p>Estos son algunos de los trabajos que realizamos en BKCWeb:</p>
 
              <div class="row">
@@ -85,10 +89,10 @@
               </a>
               <br>
              </div>
-           </article>
-           <hr>
+           </article>  
+           
            <address>
-              <h2 id="Contacto">Contacto</h2>
+              <h2 id="Contacto"><strong>CONTACTANOS</strong></h2>
               <p>Escribinos para pedir un presupuesto sin cargo o para realizarnos cualquier consulta. Puede realizar click sobre cualquiera de los siguientes medios y comunicarse directamente o completar el formulario de contacto.</p>
               <ul>
                  <li><img src="imagenes/email.png"> <strong>EMAIL:</strong> briankette@gmail.com</li>
@@ -97,29 +101,33 @@
                  <li><img src="imagenes/home.png"> <strong>DIRECCION:</strong> Indio 306, Bahia Blanca.</li>
               </ul>
               <form>
-                <strong>Nombre:</strong> 
+                <strong>Nombre*</strong>
+                <br> 
                 <input type="text" placeholder="Escribe tu nombre">
                 <br><br>
-                <strong>Telefono:</strong>
+                <strong>Telefono*</strong>
+                <br>
                 <input type="tel" placeholder="Telefono">
                 <br><br>
-                <strong>E-Mail:</strong>
+                <strong>E-Mail</strong>
+                <br>
                 <input type="email" placeholder="E-mail" name="" id="">
                 <br><br>
                 <strong>Mensaje:</strong>
+                <br>
                 <textarea name="Mensaje" cols="50" rows="5"></textarea>
                 <br/><br/>
                 <input type="submit">
               </form>
            </address>
-           <hr>
+    </section>
+           
+   	     <footer id="main-footer">
+           <h3><strong>Seguinos en:</strong> <a href="http://www.twitter.com/briankette" target=" blank"><img src="imagenes/twitter.png"></a><a href="https://www.facebook.com/kettebrian" target=" blank"><img src="imagenes/facebook.png"></a></h3>
 
-   	<footer>
-   	   <p>Copyright 2017 © Todos los derechos reservados | Diseño & Desarrollo BKCWeb</p>
-      </footer>
+   	     <h4>Copyright 2017 © Todos los derechos reservados | Diseño & Desarrollo BKCWeb</h4>
+           </footer>
+
 
 </body>
 </html>
-
-<!--http://www.buenosairesbakery.com.ar/-->
-<!--http://www.sueviaconfiteria.com.ar/contacto.php/-->
