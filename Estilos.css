@@ -1,9 +1,6 @@
  body {
 
 	margin: auto;
-	padding-top: 20px;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 1em;
 	line-height: 1.5em;
 	background-color: rgb(102, 103, 102);
 	max-width: 1050px;
@@ -11,6 +8,8 @@
     -moz-box-shadow: 0px 1px 64px 15px rgba(0,0,0,1);
     box-shadow: 0px 1px 64px 15px rgba(0,0,0,1);
     text-align: center;
+    padding-top: 60px;
+
 }
 
 img {
@@ -18,24 +17,26 @@ img {
 }
 
 h2 {
-	font-size: 2.3em;
-	line-height: 1.3em;
-	margin: 15px 0;
+	font-size: 40px;	
 	text-align: center;
 	font-weight: 300;
 	background-color: rgb(23, 218, 94); 
-	padding-top: 20px;
-	padding-bottom: 20px;
-	color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #333;
 	margin: 0px;
+	font-family: 'Bowlby One SC', cursive;
+	text-shadow: -5px -5px 5px #1AA54D;
+    -webkit-box-shadow: 0px 0px 37px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 37px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 37px 4px rgba(0,0,0,0.75)
+
 }
 
 h3 {
-	font-size: 1.8em;
-	line-height: 1.3em;
-	margin: 15px 0;
+	font-size: 30px;
+	margin: 15px;
 	text-align: center;
-	font-weight: 300;
 }
 
 h4 {
@@ -54,26 +55,72 @@ article ul li {
 	padding-top: 20px;
 }
 
-
 article {
-	padding-bottom: 40px;
+	padding-bottom: 60px;
+	background: white;
+	margin: auto;
+	padding-top: 0px;
+}
+
+.proyectos {
+	padding-bottom: 60px;
+}
+
+
+.cuadros {
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+
+}
+
+.cuadros img {
+	padding-top: 80px;
 }
 
 address {
-	padding-bottom: 60px;
+	padding-bottom: 0px;
+	background: white;
+	margin: 0px;
+
+}
+
+.mapa{
+	margin-top: 50px;
+}
+
+.row2 {
+	margin: 0px;
+	max-width: 1050px;
+
 }
 
 address ul {
 	list-style: none;
 	text-align: left;
-	padding-left: 120px;
+	padding-left: 60px;
 	padding-top: 30px;
+	padding-right: 0PX;
+}
+
+address ul li {
+    padding-top: 20px;
+    padding-right: 0PX
+}
+
+address p {
+	padding-top: 40px;
 }
 
 p {
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 20px;
+	padding-top: 40px;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.p1 {
+	padding-top: 70px;
 }
 
 form {
@@ -83,14 +130,12 @@ form {
 	font-size: 0.8em;
 }
 
-address p {
-	padding-top: 40px;
+footer {
+	background: #333;
+	color: white;
+	text-align: center;
+	padding: 50px;
 }
-
-
-
-
-
 
 
 nav {
@@ -100,7 +145,7 @@ nav {
 		margin: 0;
 		padding: 0;
 		list-style: none;
-		padding-right: 20px;
+		padding-right: 30px;
 	}
 	
 		nav ul li {
@@ -128,11 +173,9 @@ nav {
 		color: white;
 }
 
-
-
 #logo-header {
 	float: left;
-	padding: 15px 0 0 20px;
+	padding: 15px 0 0 30px;
 	text-decoration: none;
 }
 	#logo-header:hover {
@@ -142,50 +185,31 @@ nav {
 	#logo-header .site-name {
 		display: block;
 		font-weight: 700;
-		font-size: 1.6em;
+		font-size: 28px;
 	}
 	
 	#logo-header .site-desc {
 		display: block;
-		font-weight: 300;
-		font-size: 0.8em;
+		font-size: 12px;
 		color: #999;
 	}
-
-#main-content {
-	background: white;
-	margin: auto;
-	padding-top: 60px;
-	
-}
- 
-	#main-content header,
-	#main-content .content {
-		padding: 40px;
-	}
-
-#main-footer {
-	background: #333;
-	color: white;
-	text-align: center;
-	padding: 20px;
-	
-}
-	#main-footer p {
-		margin: 0;
-	}
-	
-	#main-footer a {
-		color: white;
-	}	
-
 
 #main-header {
 	background: #333;
 	color: white;
 	height: 80px;
-	
-	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
-	left: 0; /* Posicionamos la cabecera al lado izquierdo */
-	top: 0; /* Posicionamos la cabecera pegada arriba */
+	width: 100%; 
+	left: 0; 
+	top: 0; 
 	position: fixed;
+}
+
+#exampleAccordion {
+	padding-top: 60px;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+
+.col-sm-6 {
+	position: unset;
+}
